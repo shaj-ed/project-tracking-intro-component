@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <main>
+      <!-- Header -->
+      <header class="header flex-al-center">
+        <!-- Logo -->
+        <a href="index.html" class="header__logo">
+          <img src="./src/images/logo.svg" alt="Logo" />
+        </a>
+
+        <!-- Hamburger -->
+        <div class="header__hamburger flex-al-center">
+          <img
+            src="./src/images/icon-hamburger.svg"
+            class="menu-open"
+            alt="Hamburger Open"
+          />
+          <img
+            src="./src/images/icon-close.svg"
+            class="menu-close"
+            alt="Hamburger Close"
+          />
+        </div>
+
+        <!-- Navigation -->
+        <nav class="header__nav">
+          <a href="" class="header__nav--link">Products</a>
+          <a href="" class="header__nav--link">Features</a>
+          <a href="" class="header__nav--link">Pricing</a>
+          <a href="" class="header__nav--link">Login</a>
+        </nav>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <!-- Hero Image -->
+        <div class="hero__image">
+          <img src="./src/images/illustration-devices.svg" alt="Hero Image" />
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero__content">
+          <p class="hero__top">
+            <span class="wrap">New</span>
+            Monograph Dashboard
+          </p>
+
+          <h1 class="hero__headline">
+            Powerful insights <br />
+            into your team
+          </h1>
+
+          <p class="hero__snippet">
+            Project planning and time tracking for agile teams
+          </p>
+
+          <div class="hero__bottom flex-al-center">
+            <button class="hero__cta">Schedule a demo</button>
+            <button class="hero__preview">To see a preview</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- JS -->
+    <script src="./src/app.js"></script>
+  </body>
+</html>
